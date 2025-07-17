@@ -1,0 +1,201 @@
+order_id,user_id,product_id,seller,order_date,quantity,is_returned,product_name,category,price,name,city
+O0001,U0063,P0038,Seller_C,2025-02-03 15:14:48.679629,3,False,Product_38,Beauty,239.15,User_63,New York
+O0002,U0019,P0019,Seller_B,2025-02-20 15:14:48.679658,3,True,Product_19,Electronics,175.43,User_19,Houston
+O0003,U0092,P0008,Seller_C,2025-04-18 15:14:48.679664,1,False,Product_8,Home & Kitchen,229.05,User_92,Los Angeles
+O0004,U0058,P0048,Seller_A,2025-02-20 15:14:48.679669,3,False,Product_48,Beauty,203.12,User_58,Houston
+O0005,U0055,P0045,Seller_A,2025-02-19 15:14:48.679675,2,True,Product_45,Clothing,37.67,User_55,New York
+O0006,U0090,P0001,Seller_A,2025-04-12 15:14:48.679683,2,True,Product_1,Books,79.9,User_90,Phoenix
+O0007,U0090,P0022,Seller_D,2025-05-26 15:14:48.679690,3,False,Product_22,Beauty,254.91,User_90,Phoenix
+O0008,U0062,P0017,Seller_B,2025-02-06 15:14:48.679699,3,False,Product_17,Books,220.91,User_62,New York
+O0009,U0023,P0007,Seller_D,2025-01-30 15:14:48.679708,2,True,Product_7,Home & Kitchen,62.85,User_23,Phoenix
+O0010,U0009,P0025,Seller_A,2025-03-11 15:14:48.679715,2,False,Product_25,Electronics,180.16,User_9,Chicago
+O0011,U0012,P0045,Seller_B,2025-06-08 15:14:48.679720,1,False,Product_45,Clothing,37.67,User_12,Los Angeles
+O0012,U0001,P0004,Seller_A,2025-04-26 15:14:48.679725,2,True,Product_4,Beauty,251.63,User_1,Chicago
+O0013,U0058,P0036,Seller_D,2025-04-04 15:14:48.679729,2,True,Product_36,Beauty,67.66,User_58,Houston
+O0014,U0001,P0006,Seller_D,2025-03-10 15:14:48.679734,3,True,Product_6,Clothing,123.41,User_1,Chicago
+O0015,U0034,P0031,Seller_D,2025-07-06 15:14:48.679738,2,True,Product_31,Home & Kitchen,14.53,User_34,Houston
+O0016,U0096,P0019,Seller_A,2025-01-20 15:14:48.679744,1,False,Product_19,Electronics,175.43,User_96,Houston
+O0017,U0048,P0044,Seller_B,2025-02-16 15:14:48.679752,2,False,Product_44,Clothing,140.34,User_48,Houston
+O0018,U0089,P0039,Seller_B,2025-02-08 15:14:48.679760,3,False,Product_39,Electronics,185.73,User_89,New York
+O0019,U0001,P0027,Seller_A,2025-06-05 15:14:48.679768,3,False,Product_27,Home & Kitchen,186.04,User_1,Chicago
+O0020,U0016,P0010,Seller_B,2025-04-09 15:14:48.679775,2,True,Product_10,Beauty,70.3,User_16,New York
+O0021,U0061,P0026,Seller_A,2025-07-10 15:14:48.679781,3,True,Product_26,Home & Kitchen,289.92,User_61,Houston
+O0022,U0064,P0019,Seller_B,2025-02-23 15:14:48.679785,1,True,Product_19,Electronics,175.43,User_64,Los Angeles
+O0023,U0063,P0039,Seller_C,2025-04-18 15:14:48.679790,1,True,Product_39,Electronics,185.73,User_63,New York
+O0024,U0069,P0003,Seller_C,2025-03-27 15:14:48.679794,2,True,Product_3,Home & Kitchen,186.9,User_69,New York
+O0025,U0022,P0045,Seller_D,2025-05-18 15:14:48.679801,2,False,Product_45,Clothing,37.67,User_22,Chicago
+O0026,U0093,P0013,Seller_C,2025-03-26 15:14:48.679809,2,True,Product_13,Beauty,254.26,User_93,Chicago
+O0027,U0067,P0050,Seller_C,2025-07-15 15:14:48.679816,3,True,Product_50,Books,89.67,User_67,Los Angeles
+O0028,U0076,P0028,Seller_C,2025-03-10 15:14:48.679823,1,True,Product_28,Clothing,90.04,User_76,Los Angeles
+O0029,U0026,P0020,Seller_A,2025-05-30 15:14:48.679831,1,False,Product_20,Books,161.04,User_26,Chicago
+O0030,U0016,P0028,Seller_C,2025-02-27 15:14:48.679836,3,False,Product_28,Clothing,90.04,User_16,New York
+O0031,U0051,P0008,Seller_C,2025-06-10 15:14:48.679840,1,True,Product_8,Home & Kitchen,229.05,User_51,Chicago
+O0032,U0086,P0041,Seller_D,2025-02-07 15:14:48.679846,2,False,Product_41,Books,198.81,User_86,Houston
+O0033,U0057,P0039,Seller_C,2025-07-08 15:14:48.679854,2,True,Product_39,Electronics,185.73,User_57,Los Angeles
+O0034,U0029,P0001,Seller_C,2025-04-09 15:14:48.679862,2,False,Product_1,Books,79.9,User_29,Los Angeles
+O0035,U0078,P0003,Seller_B,2025-02-20 15:14:48.679868,1,False,Product_3,Home & Kitchen,186.9,User_78,Phoenix
+O0036,U0092,P0013,Seller_D,2025-05-30 15:14:48.679873,2,True,Product_13,Beauty,254.26,User_92,Los Angeles
+O0037,U0069,P0028,Seller_D,2025-03-08 15:14:48.679877,3,False,Product_28,Clothing,90.04,User_69,New York
+O0038,U0047,P0049,Seller_D,2025-02-19 15:14:48.679881,3,False,Product_49,Clothing,181.48,User_47,New York
+O0039,U0094,P0025,Seller_D,2025-02-15 15:14:48.679885,1,True,Product_25,Electronics,180.16,User_94,New York
+O0040,U0062,P0033,Seller_D,2025-05-24 15:14:48.679890,3,True,Product_33,Books,124.52,User_62,New York
+O0041,U0069,P0038,Seller_D,2025-03-19 15:14:48.679894,3,True,Product_38,Beauty,239.15,User_69,New York
+O0042,U0076,P0006,Seller_A,2025-02-06 15:14:48.679899,1,True,Product_6,Clothing,123.41,User_76,Los Angeles
+O0043,U0016,P0044,Seller_C,2025-02-15 15:14:48.679903,2,True,Product_44,Clothing,140.34,User_16,New York
+O0044,U0090,P0045,Seller_D,2025-03-23 15:14:48.679907,2,True,Product_45,Clothing,37.67,User_90,Phoenix
+O0045,U0090,P0032,Seller_C,2025-05-03 15:14:48.679911,2,True,Product_32,Books,132.79,User_90,Phoenix
+O0046,U0048,P0045,Seller_C,2025-03-26 15:14:48.679917,1,False,Product_45,Clothing,37.67,User_48,Houston
+O0047,U0085,P0047,Seller_A,2025-02-03 15:14:48.679924,3,True,Product_47,Clothing,203.96,User_85,Los Angeles
+O0048,U0039,P0021,Seller_D,2025-02-01 15:14:48.679931,2,True,Product_21,Clothing,288.74,User_39,Chicago
+O0049,U0100,P0016,Seller_B,2025-04-04 15:14:48.679938,2,False,Product_16,Clothing,278.73,User_100,Houston
+O0050,U0033,P0021,Seller_A,2025-04-24 15:14:48.679946,1,False,Product_21,Clothing,288.74,User_33,Phoenix
+O0051,U0094,P0011,Seller_B,2025-03-27 15:14:48.679953,2,False,Product_11,Books,174.63,User_94,New York
+O0052,U0023,P0037,Seller_C,2025-04-09 15:14:48.679964,1,True,Product_37,Home & Kitchen,216.29,User_23,Phoenix
+O0053,U0010,P0036,Seller_C,2025-02-14 15:14:48.679972,3,False,Product_36,Beauty,67.66,User_10,New York
+O0054,U0069,P0035,Seller_A,2025-04-15 15:14:48.679977,1,False,Product_35,Home & Kitchen,14.08,User_69,New York
+O0055,U0100,P0019,Seller_A,2025-02-21 15:14:48.679981,1,False,Product_19,Electronics,175.43,User_100,Houston
+O0056,U0034,P0020,Seller_B,2025-03-11 15:14:48.679986,1,True,Product_20,Books,161.04,User_34,Houston
+O0057,U0052,P0018,Seller_D,2025-03-29 15:14:48.679990,1,False,Product_18,Beauty,104.7,User_52,Chicago
+O0058,U0095,P0047,Seller_B,2025-04-26 15:14:48.679994,3,True,Product_47,Clothing,203.96,User_95,New York
+O0059,U0010,P0041,Seller_A,2025-05-24 15:14:48.679999,3,False,Product_41,Books,198.81,User_10,New York
+O0060,U0019,P0049,Seller_B,2025-02-04 15:14:48.680003,2,True,Product_49,Clothing,181.48,User_19,Houston
+O0061,U0058,P0014,Seller_A,2025-01-29 15:14:48.680007,3,True,Product_14,Clothing,140.43,User_58,Houston
+O0062,U0096,P0015,Seller_B,2025-02-06 15:14:48.680011,3,False,Product_15,Books,124.59,User_96,Houston
+O0063,U0001,P0031,Seller_A,2025-05-10 15:14:48.680016,2,False,Product_31,Home & Kitchen,14.53,User_1,Chicago
+O0064,U0069,P0001,Seller_A,2025-06-14 15:14:48.680020,3,True,Product_1,Books,79.9,User_69,New York
+O0065,U0004,P0003,Seller_A,2025-02-25 15:14:48.680024,1,False,Product_3,Home & Kitchen,186.9,User_4,Phoenix
+O0066,U0016,P0016,Seller_D,2025-06-26 15:14:48.680029,1,True,Product_16,Clothing,278.73,User_16,New York
+O0067,U0024,P0023,Seller_B,2025-05-30 15:14:48.680033,2,False,Product_23,Books,226.72,User_24,Houston
+O0068,U0080,P0011,Seller_B,2025-02-19 15:14:48.680038,2,False,Product_11,Books,174.63,User_80,New York
+O0069,U0002,P0012,Seller_B,2025-03-11 15:14:48.680042,2,True,Product_12,Home & Kitchen,19.08,User_2,New York
+O0070,U0092,P0010,Seller_A,2025-03-03 15:14:48.680046,1,True,Product_10,Beauty,70.3,User_92,Los Angeles
+O0071,U0032,P0032,Seller_B,2025-03-04 15:14:48.680050,3,False,Product_32,Books,132.79,User_32,New York
+O0072,U0091,P0016,Seller_B,2025-02-22 15:14:48.680054,1,False,Product_16,Clothing,278.73,User_91,Houston
+O0073,U0084,P0008,Seller_A,2025-03-11 15:14:48.680059,2,True,Product_8,Home & Kitchen,229.05,User_84,Houston
+O0074,U0024,P0038,Seller_C,2025-06-14 15:14:48.680063,3,False,Product_38,Beauty,239.15,User_24,Houston
+O0075,U0012,P0012,Seller_A,2025-01-22 15:14:48.680067,3,False,Product_12,Home & Kitchen,19.08,User_12,Los Angeles
+O0076,U0050,P0024,Seller_B,2025-03-24 15:14:48.680072,1,True,Product_24,Electronics,166.51,User_50,New York
+O0077,U0035,P0028,Seller_A,2025-03-20 15:14:48.680076,2,True,Product_28,Clothing,90.04,User_35,Houston
+O0078,U0033,P0008,Seller_C,2025-06-25 15:14:48.680080,1,False,Product_8,Home & Kitchen,229.05,User_33,Phoenix
+O0079,U0033,P0028,Seller_A,2025-02-09 15:14:48.680085,3,True,Product_28,Clothing,90.04,User_33,Phoenix
+O0080,U0061,P0036,Seller_B,2025-06-09 15:14:48.680089,1,True,Product_36,Beauty,67.66,User_61,Houston
+O0081,U0051,P0026,Seller_C,2025-03-30 15:14:48.680094,1,False,Product_26,Home & Kitchen,289.92,User_51,Chicago
+O0082,U0043,P0008,Seller_D,2025-05-27 15:14:48.680098,2,True,Product_8,Home & Kitchen,229.05,User_43,New York
+O0083,U0012,P0050,Seller_B,2025-07-09 15:14:48.680102,2,False,Product_50,Books,89.67,User_12,Los Angeles
+O0084,U0067,P0028,Seller_C,2025-06-20 15:14:48.680106,3,False,Product_28,Clothing,90.04,User_67,Los Angeles
+O0085,U0065,P0028,Seller_C,2025-06-20 15:14:48.680111,1,True,Product_28,Clothing,90.04,User_65,Houston
+O0086,U0033,P0037,Seller_D,2025-06-26 15:14:48.680115,1,False,Product_37,Home & Kitchen,216.29,User_33,Phoenix
+O0087,U0040,P0041,Seller_A,2025-06-17 15:14:48.680119,1,False,Product_41,Books,198.81,User_40,Los Angeles
+O0088,U0074,P0036,Seller_A,2025-04-11 15:14:48.680123,3,False,Product_36,Beauty,67.66,User_74,New York
+O0089,U0043,P0027,Seller_B,2025-06-19 15:14:48.680127,3,True,Product_27,Home & Kitchen,186.04,User_43,New York
+O0090,U0044,P0017,Seller_D,2025-03-28 15:14:48.680132,2,False,Product_17,Books,220.91,User_44,New York
+O0091,U0029,P0009,Seller_A,2025-05-17 15:14:48.680136,2,False,Product_9,Home & Kitchen,133.3,User_29,Los Angeles
+O0092,U0013,P0033,Seller_D,2025-05-30 15:14:48.680144,2,False,Product_33,Books,124.52,User_13,Houston
+O0093,U0012,P0020,Seller_A,2025-02-20 15:14:48.680148,1,False,Product_20,Books,161.04,User_12,Los Angeles
+O0094,U0095,P0013,Seller_C,2025-07-13 15:14:48.680153,1,False,Product_13,Beauty,254.26,User_95,New York
+O0095,U0046,P0028,Seller_A,2025-06-12 15:14:48.680157,2,True,Product_28,Clothing,90.04,User_46,Chicago
+O0096,U0002,P0048,Seller_D,2025-05-29 15:14:48.680161,1,True,Product_48,Beauty,203.12,User_2,New York
+O0097,U0035,P0029,Seller_C,2025-06-30 15:14:48.680166,2,False,Product_29,Books,95.92,User_35,Houston
+O0098,U0087,P0013,Seller_C,2025-01-26 15:14:48.680170,3,False,Product_13,Beauty,254.26,User_87,Chicago
+O0099,U0081,P0046,Seller_C,2025-02-09 15:14:48.680174,2,False,Product_46,Electronics,117.54,User_81,Chicago
+O0100,U0090,P0035,Seller_D,2025-06-01 15:14:48.680178,3,True,Product_35,Home & Kitchen,14.08,User_90,Phoenix
+O0101,U0008,P0006,Seller_B,2025-03-22 15:14:48.680185,1,False,Product_6,Clothing,123.41,User_8,Los Angeles
+O0102,U0093,P0018,Seller_B,2025-07-11 15:14:48.680193,2,False,Product_18,Beauty,104.7,User_93,Chicago
+O0103,U0026,P0005,Seller_B,2025-04-09 15:14:48.680200,1,False,Product_5,Beauty,60.28,User_26,Chicago
+O0104,U0074,P0047,Seller_D,2025-03-15 15:14:48.680207,3,False,Product_47,Clothing,203.96,User_74,New York
+O0105,U0090,P0025,Seller_C,2025-06-10 15:14:48.680214,3,False,Product_25,Electronics,180.16,User_90,Phoenix
+O0106,U0034,P0002,Seller_B,2025-06-23 15:14:48.680221,3,False,Product_2,Beauty,208.15,User_34,Houston
+O0107,U0007,P0010,Seller_D,2025-04-15 15:14:48.680228,1,True,Product_10,Beauty,70.3,User_7,Phoenix
+O0108,U0068,P0030,Seller_B,2025-06-01 15:14:48.680235,1,False,Product_30,Books,57.93,User_68,Chicago
+O0109,U0058,P0050,Seller_A,2025-04-13 15:14:48.680243,1,False,Product_50,Books,89.67,User_58,Houston
+O0110,U0075,P0045,Seller_B,2025-04-09 15:14:48.680251,1,False,Product_45,Clothing,37.67,User_75,Los Angeles
+O0111,U0029,P0005,Seller_B,2025-03-23 15:14:48.680257,3,False,Product_5,Beauty,60.28,User_29,Los Angeles
+O0112,U0036,P0033,Seller_C,2025-02-07 15:14:48.680261,3,True,Product_33,Books,124.52,User_36,Houston
+O0113,U0089,P0001,Seller_D,2025-02-06 15:14:48.680265,2,False,Product_1,Books,79.9,User_89,New York
+O0114,U0021,P0018,Seller_C,2025-05-11 15:14:48.680270,2,False,Product_18,Beauty,104.7,User_21,Phoenix
+O0115,U0036,P0032,Seller_C,2025-03-11 15:14:48.680274,1,False,Product_32,Books,132.79,User_36,Houston
+O0116,U0010,P0047,Seller_C,2025-06-29 15:14:48.680281,3,False,Product_47,Clothing,203.96,User_10,New York
+O0117,U0073,P0049,Seller_C,2025-06-22 15:14:48.680288,3,False,Product_49,Clothing,181.48,User_73,Chicago
+O0118,U0024,P0011,Seller_C,2025-05-24 15:14:48.680295,3,False,Product_11,Books,174.63,User_24,Houston
+O0119,U0064,P0021,Seller_B,2025-05-20 15:14:48.680303,2,False,Product_21,Clothing,288.74,User_64,Los Angeles
+O0120,U0099,P0026,Seller_C,2025-05-11 15:14:48.680310,2,True,Product_26,Home & Kitchen,289.92,User_99,Chicago
+O0121,U0049,P0025,Seller_C,2025-04-04 15:14:48.680316,3,False,Product_25,Electronics,180.16,User_49,Phoenix
+O0122,U0099,P0022,Seller_D,2025-01-24 15:14:48.680324,3,True,Product_22,Beauty,254.91,User_99,Chicago
+O0123,U0036,P0027,Seller_A,2025-06-23 15:14:48.680331,3,False,Product_27,Home & Kitchen,186.04,User_36,Houston
+O0124,U0082,P0049,Seller_B,2025-03-25 15:14:48.680336,2,True,Product_49,Clothing,181.48,User_82,Los Angeles
+O0125,U0096,P0013,Seller_B,2025-06-15 15:14:48.680341,3,False,Product_13,Beauty,254.26,User_96,Houston
+O0126,U0024,P0033,Seller_B,2025-01-23 15:14:48.680346,3,True,Product_33,Books,124.52,User_24,Houston
+O0127,U0023,P0034,Seller_C,2025-04-22 15:14:48.680354,1,False,Product_34,Electronics,95.11,User_23,Phoenix
+O0128,U0062,P0041,Seller_C,2025-02-16 15:14:48.680361,1,False,Product_41,Books,198.81,User_62,New York
+O0129,U0096,P0035,Seller_C,2025-03-12 15:14:48.680368,2,True,Product_35,Home & Kitchen,14.08,User_96,Houston
+O0130,U0037,P0001,Seller_D,2025-02-12 15:14:48.680374,3,False,Product_1,Books,79.9,User_37,Houston
+O0131,U0012,P0021,Seller_A,2025-03-09 15:14:48.680378,3,False,Product_21,Clothing,288.74,User_12,Los Angeles
+O0132,U0055,P0048,Seller_C,2025-06-30 15:14:48.680382,1,False,Product_48,Beauty,203.12,User_55,New York
+O0133,U0013,P0006,Seller_A,2025-04-04 15:14:48.680387,2,True,Product_6,Clothing,123.41,User_13,Houston
+O0134,U0023,P0028,Seller_D,2025-02-06 15:14:48.680391,1,True,Product_28,Clothing,90.04,User_23,Phoenix
+O0135,U0089,P0017,Seller_B,2025-03-02 15:14:48.680395,1,False,Product_17,Books,220.91,User_89,New York
+O0136,U0099,P0005,Seller_C,2025-06-04 15:14:48.680399,1,True,Product_5,Beauty,60.28,User_99,Chicago
+O0137,U0030,P0031,Seller_A,2025-01-22 15:14:48.680403,1,False,Product_31,Home & Kitchen,14.53,User_30,Los Angeles
+O0138,U0017,P0005,Seller_A,2025-06-08 15:14:48.680408,3,False,Product_5,Beauty,60.28,User_17,Houston
+O0139,U0062,P0038,Seller_C,2025-01-28 15:14:48.680412,3,True,Product_38,Beauty,239.15,User_62,New York
+O0140,U0084,P0003,Seller_B,2025-06-21 15:14:48.680417,1,True,Product_3,Home & Kitchen,186.9,User_84,Houston
+O0141,U0089,P0023,Seller_B,2025-04-09 15:14:48.680425,2,False,Product_23,Books,226.72,User_89,New York
+O0142,U0086,P0037,Seller_B,2025-05-28 15:14:48.680432,2,False,Product_37,Home & Kitchen,216.29,User_86,Houston
+O0143,U0013,P0037,Seller_D,2025-02-14 15:14:48.680441,2,False,Product_37,Home & Kitchen,216.29,User_13,Houston
+O0144,U0059,P0010,Seller_A,2025-02-15 15:14:48.680448,2,False,Product_10,Beauty,70.3,User_59,Chicago
+O0145,U0019,P0010,Seller_A,2025-07-04 15:14:48.680455,1,True,Product_10,Beauty,70.3,User_19,Houston
+O0146,U0049,P0019,Seller_A,2025-05-18 15:14:48.680463,3,False,Product_19,Electronics,175.43,User_49,Phoenix
+O0147,U0100,P0017,Seller_D,2025-03-04 15:14:48.680467,2,True,Product_17,Books,220.91,User_100,Houston
+O0148,U0012,P0021,Seller_A,2025-05-21 15:14:48.680472,1,False,Product_21,Clothing,288.74,User_12,Los Angeles
+O0149,U0061,P0014,Seller_D,2025-06-11 15:14:48.680476,2,False,Product_14,Clothing,140.43,User_61,Houston
+O0150,U0019,P0009,Seller_B,2025-01-25 15:14:48.680481,2,False,Product_9,Home & Kitchen,133.3,User_19,Houston
+O0151,U0076,P0046,Seller_C,2025-06-27 15:14:48.680486,1,False,Product_46,Electronics,117.54,User_76,Los Angeles
+O0152,U0009,P0001,Seller_A,2025-05-13 15:14:48.680491,3,False,Product_1,Books,79.9,User_9,Chicago
+O0153,U0071,P0045,Seller_A,2025-07-09 15:14:48.680495,3,False,Product_45,Clothing,37.67,User_71,New York
+O0154,U0028,P0013,Seller_B,2025-02-23 15:14:48.680499,1,False,Product_13,Beauty,254.26,User_28,Houston
+O0155,U0078,P0004,Seller_C,2025-02-25 15:14:48.680503,3,False,Product_4,Beauty,251.63,User_78,Phoenix
+O0156,U0095,P0001,Seller_D,2025-03-24 15:14:48.680508,1,True,Product_1,Books,79.9,User_95,New York
+O0157,U0052,P0049,Seller_C,2025-02-24 15:14:48.680512,1,False,Product_49,Clothing,181.48,User_52,Chicago
+O0158,U0083,P0040,Seller_B,2025-04-16 15:14:48.680516,1,False,Product_40,Clothing,278.63,User_83,Phoenix
+O0159,U0016,P0032,Seller_B,2025-04-10 15:14:48.680520,3,False,Product_32,Books,132.79,User_16,New York
+O0160,U0069,P0034,Seller_C,2025-05-12 15:14:48.680525,1,True,Product_34,Electronics,95.11,User_69,New York
+O0161,U0099,P0028,Seller_D,2025-06-15 15:14:48.680529,2,True,Product_28,Clothing,90.04,User_99,Chicago
+O0162,U0012,P0031,Seller_D,2025-04-22 15:14:48.680533,3,False,Product_31,Home & Kitchen,14.53,User_12,Los Angeles
+O0163,U0025,P0008,Seller_A,2025-05-27 15:14:48.680537,3,True,Product_8,Home & Kitchen,229.05,User_25,Phoenix
+O0164,U0052,P0039,Seller_D,2025-02-14 15:14:48.680542,3,False,Product_39,Electronics,185.73,User_52,Chicago
+O0165,U0085,P0026,Seller_C,2025-05-15 15:14:48.680546,3,True,Product_26,Home & Kitchen,289.92,User_85,Los Angeles
+O0166,U0100,P0034,Seller_B,2025-03-14 15:14:48.680550,2,True,Product_34,Electronics,95.11,User_100,Houston
+O0167,U0053,P0003,Seller_A,2025-02-17 15:14:48.680554,3,True,Product_3,Home & Kitchen,186.9,User_53,New York
+O0168,U0023,P0050,Seller_A,2025-05-20 15:14:48.680561,3,False,Product_50,Books,89.67,User_23,Phoenix
+O0169,U0016,P0012,Seller_B,2025-05-20 15:14:48.680568,1,False,Product_12,Home & Kitchen,19.08,User_16,New York
+O0170,U0057,P0001,Seller_D,2025-04-22 15:14:48.680575,3,True,Product_1,Books,79.9,User_57,Los Angeles
+O0171,U0039,P0044,Seller_B,2025-05-29 15:14:48.680582,2,True,Product_44,Clothing,140.34,User_39,Chicago
+O0172,U0053,P0005,Seller_D,2025-01-28 15:14:48.680589,2,False,Product_5,Beauty,60.28,User_53,New York
+O0173,U0042,P0030,Seller_B,2025-05-08 15:14:48.680596,2,False,Product_30,Books,57.93,User_42,New York
+O0174,U0058,P0030,Seller_C,2025-07-02 15:14:48.680604,2,False,Product_30,Books,57.93,User_58,Houston
+O0175,U0039,P0017,Seller_D,2025-05-24 15:14:48.680611,3,False,Product_17,Books,220.91,User_39,Chicago
+O0176,U0014,P0048,Seller_C,2025-04-07 15:14:48.680618,3,False,Product_48,Beauty,203.12,User_14,Phoenix
+O0177,U0095,P0047,Seller_A,2025-07-09 15:14:48.680626,2,True,Product_47,Clothing,203.96,User_95,New York
+O0178,U0005,P0023,Seller_B,2025-05-25 15:14:48.680633,2,False,Product_23,Books,226.72,User_5,Chicago
+O0179,U0035,P0015,Seller_A,2025-05-18 15:14:48.680640,3,False,Product_15,Books,124.59,User_35,Houston
+O0180,U0087,P0037,Seller_A,2025-03-31 15:14:48.680648,2,True,Product_37,Home & Kitchen,216.29,User_87,Chicago
+O0181,U0093,P0021,Seller_A,2025-07-12 15:14:48.680655,1,False,Product_21,Clothing,288.74,User_93,Chicago
+O0182,U0075,P0014,Seller_A,2025-04-05 15:14:48.680662,2,False,Product_14,Clothing,140.43,User_75,Los Angeles
+O0183,U0018,P0002,Seller_B,2025-07-11 15:14:48.680669,2,True,Product_2,Beauty,208.15,User_18,Phoenix
+O0184,U0076,P0011,Seller_A,2025-03-30 15:14:48.680676,1,True,Product_11,Books,174.63,User_76,Los Angeles
+O0185,U0009,P0039,Seller_B,2025-03-23 15:14:48.680684,1,False,Product_39,Electronics,185.73,User_9,Chicago
+O0186,U0074,P0038,Seller_B,2025-04-14 15:14:48.680690,3,False,Product_38,Beauty,239.15,User_74,New York
+O0187,U0058,P0034,Seller_C,2025-05-31 15:14:48.680698,3,True,Product_34,Electronics,95.11,User_58,Houston
+O0188,U0017,P0038,Seller_D,2025-04-09 15:14:48.680705,1,False,Product_38,Beauty,239.15,User_17,Houston
+O0189,U0007,P0050,Seller_D,2025-05-23 15:14:48.680709,1,False,Product_50,Books,89.67,User_7,Phoenix
+O0190,U0046,P0034,Seller_B,2025-01-30 15:14:48.680713,3,False,Product_34,Electronics,95.11,User_46,Chicago
+O0191,U0013,P0018,Seller_C,2025-05-26 15:14:48.680718,2,False,Product_18,Beauty,104.7,User_13,Houston
+O0192,U0040,P0030,Seller_B,2025-02-23 15:14:48.680722,1,True,Product_30,Books,57.93,User_40,Los Angeles
+O0193,U0042,P0015,Seller_B,2025-07-04 15:14:48.680726,3,False,Product_15,Books,124.59,User_42,New York
+O0194,U0009,P0027,Seller_B,2025-03-25 15:14:48.680731,2,False,Product_27,Home & Kitchen,186.04,User_9,Chicago
+O0195,U0050,P0034,Seller_C,2025-03-15 15:14:48.680735,1,False,Product_34,Electronics,95.11,User_50,New York
+O0196,U0027,P0038,Seller_D,2025-04-02 15:14:48.680739,2,True,Product_38,Beauty,239.15,User_27,Chicago
+O0197,U0066,P0033,Seller_C,2025-02-09 15:14:48.680743,3,False,Product_33,Books,124.52,User_66,Houston
+O0198,U0005,P0024,Seller_A,2025-02-20 15:14:48.680748,1,False,Product_24,Electronics,166.51,User_5,Chicago
+O0199,U0029,P0015,Seller_C,2025-02-22 15:14:48.680993,2,True,Product_15,Books,124.59,User_29,Los Angeles
+O0200,U0037,P0030,Seller_C,2025-03-19 15:14:48.681006,1,True,Product_30,Books,57.93,User_37,Houston

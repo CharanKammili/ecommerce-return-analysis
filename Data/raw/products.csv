@@ -1,0 +1,51 @@
+product_id,product_name,category,price
+P0001,Product_1,Books,79.9
+P0002,Product_2,Beauty,208.15
+P0003,Product_3,Home & Kitchen,186.9
+P0004,Product_4,Beauty,251.63
+P0005,Product_5,Beauty,60.28
+P0006,Product_6,Clothing,123.41
+P0007,Product_7,Home & Kitchen,62.85
+P0008,Product_8,Home & Kitchen,229.05
+P0009,Product_9,Home & Kitchen,133.3
+P0010,Product_10,Beauty,70.3
+P0011,Product_11,Books,174.63
+P0012,Product_12,Home & Kitchen,19.08
+P0013,Product_13,Beauty,254.26
+P0014,Product_14,Clothing,140.43
+P0015,Product_15,Books,124.59
+P0016,Product_16,Clothing,278.73
+P0017,Product_17,Books,220.91
+P0018,Product_18,Beauty,104.7
+P0019,Product_19,Electronics,175.43
+P0020,Product_20,Books,161.04
+P0021,Product_21,Clothing,288.74
+P0022,Product_22,Beauty,254.91
+P0023,Product_23,Books,226.72
+P0024,Product_24,Electronics,166.51
+P0025,Product_25,Electronics,180.16
+P0026,Product_26,Home & Kitchen,289.92
+P0027,Product_27,Home & Kitchen,186.04
+P0028,Product_28,Clothing,90.04
+P0029,Product_29,Books,95.92
+P0030,Product_30,Books,57.93
+P0031,Product_31,Home & Kitchen,14.53
+P0032,Product_32,Books,132.79
+P0033,Product_33,Books,124.52
+P0034,Product_34,Electronics,95.11
+P0035,Product_35,Home & Kitchen,14.08
+P0036,Product_36,Beauty,67.66
+P0037,Product_37,Home & Kitchen,216.29
+P0038,Product_38,Beauty,239.15
+P0039,Product_39,Electronics,185.73
+P0040,Product_40,Clothing,278.63
+P0041,Product_41,Books,198.81
+P0042,Product_42,Electronics,275.34
+P0043,Product_43,Books,256.51
+P0044,Product_44,Clothing,140.34
+P0045,Product_45,Clothing,37.67
+P0046,Product_46,Electronics,117.54
+P0047,Product_47,Clothing,203.96
+P0048,Product_48,Beauty,203.12
+P0049,Product_49,Clothing,181.48
+P0050,Product_50,Books,89.67
