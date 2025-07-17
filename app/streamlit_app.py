@@ -1,17 +1,11 @@
 import streamlit as st
 import pandas as pd
 import os
-import os
-import subprocess
+# Only load the file. Don't attempt to run main.py via subprocess
+DATA_PATH = os.path.join("data", "processed", "final_dataset.csv")
 
-# Auto-generate the dataset if it doesn't exist
-if not os.path.exists("data/processed/final_dataset.csv"):
-    try:
-        subprocess.run(["python", "main.py"], check=True)
-    except Exception as e:
-        st.error("❌ Failed to generate processed data. Please check 'main.py'.")
-        st.stop()
-
+st.set_page_config(page_title="E-commerce Product Return Dashboard", layout="wide")
+st.title("📦 E-commerce Product Return Dashboard")
 
 # Load dataset
 DATA_PATH = os.path.join("data", "processed", "final_dataset.csv")
