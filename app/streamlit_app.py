@@ -1,6 +1,17 @@
 import streamlit as st
 import pandas as pd
 import os
+import os
+import subprocess
+
+# Auto-generate the dataset if it doesn't exist
+if not os.path.exists("data/processed/final_dataset.csv"):
+    try:
+        subprocess.run(["python", "main.py"], check=True)
+    except Exception as e:
+        st.error("❌ Failed to generate processed data. Please check 'main.py'.")
+        st.stop()
+
 
 # Load dataset
 DATA_PATH = os.path.join("data", "processed", "final_dataset.csv")
