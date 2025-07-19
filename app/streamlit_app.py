@@ -7,27 +7,33 @@ DATA_PATH = os.path.join("data", "processed", "final_dataset.csv")
 st.set_page_config(page_title="E-commerce Product Return Dashboard", layout="wide")
 st.title("📦 E-commerce Product Return Dashboard")
 
-# Load dataset
+# ---------------- CONFIG ---------------- #
 DATA_PATH = os.path.join("data", "processed", "final_dataset.csv")
+st.set_page_config(
+    page_title="E-commerce Product Return Dashboard",
+    layout="wide",
+    page_icon="📦",
+)
 
-st.set_page_config(page_title="E-commerce Product Return Dashboard", layout="wide")
-st.title("📦 E-commerce Product Return Dashboard")
+# ---------------- HEADER ---------------- #
+st.markdown("<h1 style='color:#F5A623;'>📦 E-commerce Product Return Dashboard</h1>", unsafe_allow_html=True)
+st.markdown("<h5 style='color:#CCCCCC;'>Analyze return trends, customer behavior, and product performance in one glance.</h5>", unsafe_allow_html=True)
+st.markdown("---")
 
-# Load Data
+# ---------------- LOAD DATA ---------------- #
 if os.path.exists(DATA_PATH):
     df = pd.read_csv(DATA_PATH)
 
-    # ✅ Standardize column name
     if 'city' in df.columns and 'location' not in df.columns:
         df.rename(columns={'city': 'location'}, inplace=True)
 
     # Sidebar Filters
-    st.sidebar.header("🔍 Filter Options")
-    category_filter = st.sidebar.multiselect("Filter by Category", df['category'].dropna().unique())
-
-    location_filter = []
-    if 'location' in df.columns:
-        location_filter = st.sidebar.multiselect("Filter by Location", df['location'].dropna().unique())
+    with st.sidebar:
+        st.markdown("### 🔍 Filter Options")
+        category_filter = st.multiselect("Filter by Category", df['category'].dropna().unique())
+        location_filter = []
+        if 'location' in df.columns:
+            location_filter = st.multiselect("Filter by Location", df['location'].dropna().unique())
 
     # Apply Filters
     filtered_df = df.copy()
@@ -36,7 +42,7 @@ if os.path.exists(DATA_PATH):
     if location_filter:
         filtered_df = filtered_df[filtered_df['location'].isin(location_filter)]
 
-    # Metrics
+    # Return Summary
     st.subheader("📊 Return Summary")
     total_orders = len(filtered_df)
     returned_orders = filtered_df["is_returned"].sum()
@@ -58,7 +64,7 @@ if os.path.exists(DATA_PATH):
         city_data = filtered_df[filtered_df['is_returned']].groupby("location")["order_id"].count()
         st.bar_chart(city_data)
 
-    # Monthly Trend
+    # Monthly Return Trends
     if 'timestamp' in df.columns:
         st.subheader("📆 Monthly Return Trends")
         df['timestamp'] = pd.to_datetime(df['timestamp'])
@@ -72,17 +78,27 @@ if os.path.exists(DATA_PATH):
         top_products = filtered_df[filtered_df['is_returned']].groupby('product_name')['order_id'].count().sort_values(ascending=False).head(10)
         st.bar_chart(top_products)
 
-    # Risky Customers (3+ returns)
-    st.subheader("🚩 Risky Customers")
+    # Risky Customers
+    st.subheader("🚩 Risky Customers (3+ returns)")
     risky = filtered_df[filtered_df["is_returned"]].groupby("user_id")["order_id"].count()
     risky = risky[risky > 2].reset_index(name="return_count")
     st.dataframe(risky)
 
-    # Loyal Customers (0 returns)
-    st.subheader("🎯 Loyal Customers")
+    # Loyal Customers
+    st.subheader("🎯 Loyal Customers (0 returns)")
     returned_users = filtered_df[filtered_df["is_returned"] == True]["user_id"].unique()
     loyal_customers = filtered_df[~filtered_df["user_id"].isin(returned_users)]["user_id"].unique()
     st.write("Number of Loyal Customers:", len(loyal_customers))
     st.dataframe(loyal_customers)
+
 else:
     st.error("⚠️ Processed data not found. Run `main.py` to generate 'final_dataset.csv'.")
+
+# ---------------- FOOTER ---------------- #
+st.markdown("---")
+st.markdown(
+    "<div style='text-align: center; color: gray;'>"
+    "Built by Charan Kammili • Source on <a href='https://github.com/CharanKammili/ecommerce-return-analysis' target='_blank'>GitHub</a>"
+    "</div>",
+    unsafe_allow_html=True
+)
